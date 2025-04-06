@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    width: 100%;
+    border: 1px solid red;
+  }
+  
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    /* top: 0; */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.984);
+  }
+  
+   #navbar {
+  display:none;
+  } 
+  
+  i {
+  
+    margin: 0px 15px;
+    color: azure;
+  
+  }
+  #Menu{
+    padding: 100px 50px;
+    background-image:url(images/back_2.png);
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  #Menu1{
+    padding:25px 0px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    /* font-size: x-large; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  #Menu1 div img{
+    width: 100%;
+  }
+  #Menu1 div h4,p{
+    padding: 20px;
+  }
+  #Menu1 div p{
+
+    font-family: cursive;
+  }
+  #Menu1 h1{
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+  }
+  #delivery {
+    margin: left 10px;
+    width: 100%;
+    background-image: url(images/back_2.png);
+  
+  }
+
+  .delivery_child{
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  
+  }
+  .delivery_child img,h4,h1{
+    margin: 10px;
+  
+  }
+  
+  .del1 {
+    height: 100px;
+  }
+  #subscribe {
+
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #ul ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px;
+  }
+  
+  #demo {
+    border: 2px solid rgba(255, 255, 255, 0.249);
+    padding: 50px 20px;
+  }
+  
+  #h1 {
+    padding: 40px 20px;
+  }
+  @media only screen and (min-width:768px){
+
+    #navbar {
+      display:block;
+  
+    }
+    #navbar nav ul li a {
+      margin: 0px 10px;
+      text-decoration: none;
+      color: white
+    }
+    #Menu1 div img{
+      width: 300px; /* Adjust as needed */
+      height: auto;
+      margin: 0 10px; /* Adjust as needed */
+  }
+}

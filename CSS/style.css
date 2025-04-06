@@ -1,0 +1,299 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 100%;
+  border: 1px solid red;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.984);
+}
+
+#navbar {
+  display: none;
+}
+
+i {
+
+  margin: 0px 15px;
+  color: azure;
+
+}
+
+#herosection
+/* #vincent,
+#pizza { */
+  /* margin: 5px 5px 5px 5px; */
+  {
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  background-image: url(images/bgimg.jpg);
+
+
+}
+
+#herosection div img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#delivery {
+  margin: left 10px;
+  width: 100%;
+  background-image: url(images/back_2.png);
+
+}
+.delivery_child{
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+.delivery_child img,h4,h1{
+  margin: 10px;
+
+}
+
+.del1 {
+  height: 100px;
+}
+
+/* #delivery div img {
+  width: 100%;
+
+} */
+
+#unique {
+  text-align: center;
+  margin: 0px;
+  padding: 5px 5px 5px;
+  padding-top: 50px;
+}
+
+#Menu {
+  /* align-items: center; */
+  text-align: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.968);
+  color: aliceblue;
+
+
+}
+
+#Menu div img {
+  width: 100%;
+}
+
+#blog{
+  text-align: center;
+  background-image: url(images/back_2.png);
+}
+
+
+.legend-section {
+  background: rgba(255, 198, 109, 0.9);
+  padding: 60px 10%;
+  text-align: left;
+}
+
+
+.legend-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #222;
+}
+
+.legend-section p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 800px;
+}
+
+
+.testimonials {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.testimonial {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-left: 4px solid #ff9800;
+  font-style: italic;
+  border-radius: 8px;
+}
+
+
+.testimonial .user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.user-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #ff9800;
+}
+
+.user-info div {
+  font-size: 0.9rem;
+  color: #222;
+  font-weight: bold;
+}
+#blog div {
+  padding: 15px;
+}
+
+#blog div h4 {
+  margin: 20px;
+}
+
+
+.button:hover {
+  background-color: black;
+  color: aliceblue;
+}
+
+#Sales {
+  padding: 50px;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+
+}
+
+.child {
+  margin: 50px;
+  /* padding: 50px; */
+}
+
+#Sales div img {
+  width: 100%;
+}
+
+.d1,
+.c1 {
+  color: aliceblue;
+}
+
+#subscribe {
+   
+  margin: 0;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#ul ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  list-style-type: none;
+  padding: 20px;
+}
+
+#demo {
+  border: 2px solid rgba(255, 255, 255, 0.249);
+  padding: 50px 20px;
+}
+
+#h1 {
+  padding: 40px 20px;
+}
+
+/* Discover our menu */
+#menu {
+  padding: 100px;
+  margin: 50px;
+}
+
+.discover-menu {
+  padding-bottom: 50px;
+}
+
+.discover-menu div {
+  margin: 50px;
+}
+
+.discover-menu div img {
+  margin: 30px;
+}
+
+
+
+
+@media only screen and (min-width:768px){
+
+  #navbar {
+    display:block;
+
+  }
+  #navbar nav ul li a {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: white
+  }
+  #delivery
+  {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+
+  }
+
+  .delivery_child {
+    width: 100%;
+   
+  
+  } 
+  #Sales div img {
+    width: 23%;
+  }
+  
+  
+  #Sales .child {
+     display: flex;
+    flex-wrap: wrap;
+     justify-content: center; 
+ 
+  }
+ .discover-menu{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 images per row */
+  gap: 20px;
+  justify-items: center;
+  }
+  
+}
+

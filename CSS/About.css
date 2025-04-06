@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    width: 100%;
+    border: 1px solid red;
+  }
+  
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    /* top: 0; */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.984);
+  }
+  
+   #navbar {
+  display:none;
+  } 
+  
+  i {
+  
+    margin: 0px 15px;
+    color: azure;
+  
+  }
+  /* #About{
+    padding: 100px 50px;
+    background-image:url(images/back_2.png);
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+
+  } */
+  #About_child{
+    padding: 100px 50px;
+    background-image:url(images/back_2.png);
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+  }
+  #About{
+    width: 100%;
+  }
+  #About div img{
+    width: 100%;
+  }
+
+  #demo{
+
+    background-color: rgba(0, 0, 0, 0.868);
+    color: white;
+    width: 100%;
+  }
+  #demo div img{
+    width: 100%;
+  }
+  #demo1,.demo2,.Vincent,.br{
+    padding: 30px;
+    text-align: center;
+  }
+
+  #client,.We{
+    text-align: center;
+    padding: 20px 0px;
+    background-image:url(images/back_2.png) ;
+  }
+  #staff{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.971);
+    color: white;
+  }
+  #staff div img{
+    width: 100%;
+  }
+  .staff1{
+    text-align: center;
+    padding: 3px;
+  }
+
+  #delivery {
+    margin: left 10px;
+    width: 100%;
+    background-image: url(images/back_2.png);
+  
+  }
+  .delivery_child{
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  
+  }
+  .delivery_child img,h4,h1{
+    margin: 10px;
+  
+  }
+  
+  .del1 {
+    height: 100px;
+  }
+
+  #subscribe {
+
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #ul ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px;
+  }
+  
+  #demo {
+    border: 2px solid rgba(255, 255, 255, 0.249);
+    padding: 50px 20px;
+  }
+  
+  #h1 {
+    padding: 40px 20px;
+  }
+
+  @media only screen and (min-width:768px){
+
+    #navbar {
+      display:block;
+  
+    }
+    #navbar nav ul li a {
+      margin: 0px 10px;
+      text-decoration: none;
+      color: white
+    }
+
+   }
+  
